@@ -959,7 +959,7 @@ section,
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: color-mix(in srgb, var(--background-color), transparent 10%);
+  background: color-mix(in srgb, var(--background-color), transparent 6%);
   padding: 15px;
 }
 
@@ -994,7 +994,7 @@ section,
 
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 14px;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
