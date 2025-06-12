@@ -41,11 +41,17 @@
 
 <body class="index-page">
 
+  <div class="header">  
+    <a href="#services" class="ms-4">Skip to main content</a> 
+  </div>
+
   <header id="header" class="header d-flex align-items-center sticky-top">
+    
+    
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/img_Branding/White C Logo-CLU-dark Background.png" alt="Clara Lopez-Uribe Logo" class="logo-img me-3"> 
+        <img src="assets/img/img_Branding/White C Logo-CLU-dark Background.png" alt="Clara Lopez-Uribe initials Logo" class="logo-img me-3"> 
         <h1 class="sitename">Clara Lopez-Uribe</h1>
       </a>
 
@@ -87,7 +93,9 @@
     <section id="hero" class="hero section dark-background">
 
       <!-- <img src="assets/img/img_Branding/Black Waves.png" alt="" data-aos="fade-in"> -->
-      <img src="assets/img/heroBG/jackson-sophat-_t-l5FFH8VA-unsplash.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/heroBG/jackson-sophat-_t-l5FFH8VA-unsplash.jpg" alt="Red, 3 dimensional block shapes emulating the closing tag of an HTML element" data-aos="fade-in">
+
+      
 
       <div class="container section-title d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
         <h2 class="display-2">I'm Clara. I develop</h2>
@@ -96,8 +104,8 @@
             <!-- Use classes 2,3,4, or 5 to match the number of words -->
             <ul class="flip5 display-6 text-light"> 
               <li>Full Stack Web Applications</li>              
-              <li>Collaborative Partnerships</li>              
-              <li>Valuable Contributions</li>
+              <li>Collaborative Partnerships</li>
+              <li>Accessible Products</li>
               <li>Practical Solutions</li>
               <li>Full Stack Web Applications</li> 
             </ul>
@@ -120,11 +128,10 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>The projects highlighted in this portfolio were built with the following tech-stack:</p>
+        <p>The projects highlighted in this portfolio were built with the following tech-stack</p>
       </div><!-- End Section Title -->
 
       <div class="container">
-
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -145,7 +152,6 @@
               <a href="#" class="stretched-link"></a> -->
             </div>
           </div><!-- End Service Item -->
-
            
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
@@ -182,7 +188,6 @@
                 <!-- <a href="#" class="stretched-link"></a> -->
             </div>
           </div><!-- End Service Item -->                  
-
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
@@ -350,7 +355,7 @@
         </div>
       </div>
 
-    </section><!-- SKILLS SECTION (formally Services Section) -->
+    </section><!-- SKILLS SECTION (Services Section) -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section bg-dark text-light">
@@ -358,55 +363,57 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2 class="text-light">Portfolio</h2>
-        <p>View a sampling of my projects</p>
+        <p>View a sample of my work</p>
+        <a href="#about">Skip to next section</a>
       </div><!-- End Section Title -->
+      
 
       <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter="*" class="filter-active"><button class="text-button">All</button></li>
+            <li data-filter=".filter-app"><button class="text-button">Full-Stack</button></li>
+            <li data-filter=".filter-product"><button class="text-button">JS Fundamentals</button></li>
+              <!-- <li data-filter=".filter-branding"><button class="text-button">Branding</button></li>
+              <li data-filter=".filter-books"><button class="text-button">Books</button></li> -->
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">            
             
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/Proj_img/BlogProjWide.png" class="img-fluid" alt="">
+              <img src="assets/img/Proj_img/BlogProjWide.png" class="img-fluid" alt="Blog Project landing page featuring a title and subtile in white bold text and a search bar, over a darkened filtered background image of an open blank notebook with a pencil in the center and surrounded by a pair of glasses, smartphone, and an open laptop.">
               <div class="portfolio-info">
                 <h4>Blog Project</h4>
-                <p>A collection of "Clara-FYIing Thoughts" about code, careers, and creativity.This full stack application was built with ASP.NET MVC, C#, and PostgreSQL.</p>                
-                <a href="https://clu-blogproject.up.railway.app/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <p>A collection of "Clara-FYIing" thoughts about code, careers, and creativity.This full stack application was built with ASP.NET MVC, C#, and PostgreSQL.</p>                
+                <a href="blog-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/Proj_img/FizzBuzzPageShot.png" class="img-fluid" alt="">
+              <img src="assets/img/Proj_img/FizzBuzzPageShot.png" class="img-fluid" alt="FizzBuzz Project landing page featuring bold, colorful text on white background, and an AI generated image of bees and ladybugs over a field of wild flowers.">
               <div class="portfolio-info">
                 <h4>Fizz-Buzz</h4>
-                <p>This JavaScript application uses loops, arrays, and other programming fundamentals to display numbers from 1 to 100, replacing multiples of two numbers of your choice with "Fizz" and "Buzz". Common Multiples of your numbers are replaced with "FizzBuzz"!</p>
-                <a href="https://claralopezuribe.github.io/FizzBuzz/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <p>This JavaScript application uses loops, arrays, and other programming fundamentals to solve the classic "FizzBuzz" challenge.</p>
+                <a href="https://claralopezuribe.github.io/FizzBuzz/" target="_blank" title="Go to project website" aria-label="Opens in new tab" class="details-link"></i><i class="fas fa-external-link-alt" aria-hidden=”true”></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
 
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/Proj_img/smartStartPageShot.png" class="img-fluid" alt="">
+              <img src="assets/img/Proj_img/smartStartPageShot.png" class="img-fluid" alt="Smart Start Loan Calculator Project landing page featuring bold, colorful text on white background, and an AI generated collage featuring a calculator, graduation cap, car, and other finance related images over an orange background.">
               <div class="portfolio-info">
                 <h4>Smart Start Loan Calculator</h4>
-                <p>This JavaScript application illustrates several core JavaScript concepts and techniques—such as DOM manipulation, iterative processing with for loops, type conversion, and data encapsulation. It also demonstrates the principle of separation of concerns by organizing the code into modular functions, each with a distinct responsibility, which makes the code easier to read, test, and maintain.</p>                
-                <a href="https://claralopezuribe.github.io/Smart-Start-Loan-Calculator/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <p>This JavaScript application illustrates several core JavaScript concepts and techniques—such as DOM manipulation, iterative processing with for loops, type conversion, and data encapsulation.</p>                
+                <a href="https://claralopezuribe.github.io/Smart-Start-Loan-Calculator/" target="_blank" title="Website opens in new tab" aria-label="Website opens in new tab" class="details-link"><i class="fas fa-external-link-alt" aria-hidden=”true”></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Books 1</h4>
@@ -414,7 +421,7 @@
                 <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!--End Portfolio Item-->
+            </div>End Portfolio Item -->
 
             <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
@@ -526,13 +533,18 @@
 
             <div class="row justify-content-between gy-4">
               <div class="col-lg-5">
-                <img src="assets/img/img_Branding/ClaraSquareHeadshot.jpg" class="img-fluid rounded-4" alt="Clara Lopez-Uribe Headshot">
+                <img src="assets/img/img_Branding/ClaraSquareHeadshot.jpg" class="img-fluid rounded-4" alt="Clara is standing in front of a calm, blue lake that is lined by evergreen covered mountain tops on the not too distant shore. She is smiling warmly at the camera, and her dark brown hair is pulled back in a low, loose bun. She is wearing flower shaped lazer-cut wood earings, and a denim dress that is embroidered along the shoulders and square neckline with a traditional Mexican design of vivid, multi-colored flower patterns.">
               </div>
               <div class="col-lg-7 about-info">
                 <p><strong>Name: </strong> <span>Clara Lopez-Uribe</span></p>
-                <p><strong>Profile: </strong> <span>Web Developer</span></p>
                 <p><strong>Location: </strong> <span>Greenville/Spartanburg</span></p>
                 <p><strong>State: </strong> <span>South Carolina</span></p>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col">
+                <p><strong>Professional Profile:</strong></p>
+                <p>Full stack web developer building dynamic, responsive, and accessible applications with ASP.NET MVC, C#, JavaScript, PostgreSQL, HTML, CSS, and Bootstrap.</p>
               </div>
             </div>
 
@@ -541,14 +553,12 @@
           <div class="col-md-6">
             <div class="about-me">
               <h2>About me</h2>
+              <p>I am passionate about helping people live their best life, so I learn whatever it takes to serve that purpose with integrity and excellence. My first tools were musical instruments. My latest are software development technologies.</p>
               <p>
-                Full stack web developer building dynamic and responsive applications with ASP.NET MVC, C#, JavaScript, PostgreSQL, HTML, CSS, and Bootstrap.
+                With a decade of professional experience in music education, and over a decade more in personal caregiving, coaching, and advocacy, I now bring a diverse set of skills to the tech industry. I apply my deep curiosity, analytical thinking, attention to detail, and strong communication skills to craft practical, effective, user-centered digital solutions.
               </p>
               <p>
-                Bringing 25 years of expertise in education, personal coaching, and advocacy to software development, applying analytical thinking, attention to detail, and strong communication skills to craft practical and effective business solutions.
-              </p>
-              <p>
-                Excited to contribute a passion for developing impactful, user-centered digital solutions as part of a collaborative team. Open to remote, hybrid, or in-person roles in the Greenville, SC metropolitan area.
+                I am excited to make impactful contributions as part of a collaborative development team. I am open to remote, hybrid, or in-person roles in the Greenville, SC metropolitan area.
               </p>
             </div>
           </div>
@@ -647,8 +657,9 @@
             <div class="content px-xl-5">
               <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
               <p>
-                I want you to feel confident in your decision to work with me!  If you have any other questions, please feel free to reach out to me directly.
+                I've reflected on, and answer some of the most common interview question here, so you can feel confident in your decision to work with me! 
               </p>
+              <p>If you have any other questions, please feel free to reach out to me directly.</p>
             </div>
           </div>
 
@@ -659,10 +670,10 @@
                 <h3><span class="num">1.</span> <span>Why should I hire you?</span></h3>
                 <div class="faq-content">
                   <p>
-                    Because I add significant value in every role I occupy. After assessing current needs and identifying desired outcomes, I research, learn, and apply best practices, methodologies, and tools to deliver solutions that exeeds expectations.
+                    I make it a point to add significant value in every role I occupy. I continuously assess current needs and opportunities for improvements. After identifing desired outcomes, I research, learn, and apply best practices, methodologies, and tools to deliver solutions that exeed expectations.
                   </p>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
+                <button class="faq-toggle bi bi-chevron-right"></button>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
@@ -670,7 +681,7 @@
                 <div class="faq-content">
                   <p>Having a positive and forward thinking mindset has been crucial in navigating difficult circumstances in professional and personal settings. When confronted with a challenge, I first decide that I <em>will </em>be successful in resolving it. This enables me to see and implement solutions I may otherwise miss.</p>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
+                <button class="faq-toggle bi bi-chevron-right"></button>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
@@ -678,27 +689,27 @@
                 <div class="faq-content">
                   <p>After about a decade working as a music teacher in private and public schools, I have executed all of my work from home. Having a clear sense of purpose has been what keeps me focused on prioritizing and accomplishing high value tasks. I've also developed systems that keep me organized and productive, even on low-motivation days.</p>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
+                <button class="faq-toggle bi bi-chevron-right"></button>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
                 <h3><span class="num">4.</span> <span>How do you stay current on industry trends and updates?</span></h3>
                 <div class="faq-content">
                   <p>
-                    Once a teacher, always a teacher! That means I teach myself whatever is necessary to do my job with excellence. Learning is best through community, so I follow and engage with industry leaders and colleagues on social media and online communities. I also take online courses, subscribe to (and read) newsletters, and attend conferences to deepen my knowledge and skills.
+                    Learning is most effective in community, so I follow and engage with industry leaders and colleagues on social media and online forums. I also take online courses, subscribe to (and read) newsletters, and attend conferences to deepen my knowledge and skills.
                   </p>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
+                <button class="faq-toggle bi bi-chevron-right"></button>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
                 <h3><span class="num">5.</span> <span>How do you handle giving or receiving constructive feedback?</span></h3>
                 <div class="faq-content">
                   <p>
-                    Giving and receiving constructive feedback can be challenging and stressful, but the most impactful strategy I have learned to make the experience mutually beneficial, is to hold a generous view of the person in front of me. Remembering that the intention of constructive feedback is to help eachother grow, improve, and be successful shifts the dynamic from one of criticism to one of collaboration. I am always grateful for that!
+                    Giving and receiving constructive feedback can often be challenging and stressful. However, the most impactful strategy I have applied to make the experience mutually beneficial, is to hold a generous view of the person in front of me. Remembering that the intention of constructive feedback is to help each other grow, improve, and be successful shifts the dynamic from one of criticism to one of collaboration. I am always grateful for that!
                   </p>
                 </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
+                <button class="faq-toggle bi bi-chevron-right"></button>
               </div><!-- End Faq item-->
 
             </div>
@@ -713,14 +724,14 @@
     <!-- CONTACT BANNER (Testimonials Section) -->
     <section id="contact" class="testimonials section accent-background">
 
-      <img src="assets/img/contact-bg.jpg" class="testimonials-bg" alt="rotarty phone">
+      <img src="assets/img/contact-bg.jpg" class="testimonials-bg" alt="old fashioned rotarty phone">
 
       <div class="container">
         
         <div class="swiper-slide">
           <div class="testimonial-item">
             <p class="display-1">
-              Let's keep in touch
+              Let's connect!
             </p>
           </div>
         </div>
@@ -735,7 +746,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>I'd love to explore how I can contribute to your projects. I welcome your questions and feedback!</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -744,19 +755,23 @@
           <div class="row gy-4">
 
             <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
               <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
             </div>
 
             <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+              <label for="email" class="form-label">Email</label>
+              <input type="email"  name="email" class="form-control" placeholder="someone@example.com" required="">
             </div>
 
             <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required="">
             </div>
 
             <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" class="form-control" placeholder="Message" rows="10" required=""></textarea>
             </div>
 
             <div class="col-md-12 text-center">
@@ -796,6 +811,8 @@
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Clara Lopez-Uribe</strong> <span>All Rights Reserved</span></p>
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <p>Hero banner photo by <a href="https://unsplash.com/@jacksonsophat?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jackson Sophat</a> on <a href="https://unsplash.com/photos/orange-plastic-blocks-on-white-surface-_t-l5FFH8VA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+      
       </div>
     </div>
 

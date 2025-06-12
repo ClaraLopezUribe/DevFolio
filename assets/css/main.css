@@ -914,8 +914,9 @@ section,
   text-align: center;
 }
 
+
+
 .portfolio .portfolio-filters li {
-  cursor: pointer;
   display: inline-block;
   padding: 0;
   font-size: 16px;
@@ -932,9 +933,19 @@ section,
   color: var(--accent-color);
 }
 
+li .text-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0; /* Removes button padding */
+  text-transform: uppercase;
+}
+
 .portfolio .portfolio-filters li:first-child {
   margin-left: 0;
-}
+} 
 
 .portfolio .portfolio-filters li:last-child {
   margin-right: 0;
@@ -1279,6 +1290,11 @@ section,
   line-height: 0;
   transition: 0.3s;
   cursor: pointer;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  padding: 0; /* Removes button padding */
 }
 
 .faq .faq-container .faq-item .faq-toggle:hover {
