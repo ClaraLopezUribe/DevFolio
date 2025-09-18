@@ -903,6 +903,20 @@ section,
   }
 }
 
+/*-----------------------------------------------------------------
+# Devicon (Tech Stack Icons)
+-------------------------------------------------------------------*/
+
+.devicon-codeberg-plain {
+  max-width: 2em;
+}
+
+/* if you want to change the original color */
+.devicon-codeberg-plain path {
+  fill: var(--CLU-white);
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio Section
