@@ -44,13 +44,13 @@
   <body class="index-page">
      
     <nav id="header" class="navbar navbar-expand-xl navbar-dark d-flex align-items-center sticky-top header">   
-      <a href="#services" class="skip-link visually-hidden-focusable ms-5">Skip to main content</a>
+      <a href="#services" class="visually-hidden-focusable ms-5">Skip to main content</a>
 
       <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between navmenu">
            
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
           <a href="index.html" class="navbar-brand d-inline-block align-items-center logo"><img src="assets/img/img_Branding/White C Logo-CLU-dark Background.png" alt="Clara Lopez-Uribe initials Logo" class="d-inline-block align-text-bottom me-3 logo-img"><h1 class="d-inline-block sitename">Clara Lopez-Uribe</h1></a>
-          <button type="button" class="navbar-toggler d-xl-none bi bi-list bg-dark mobile-nav-toggle" data-bs-toggle="collapse" data-bs-target="#navmenu"  aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+          <button type="button" class="navbar-toggler d-xl-none bi bi-list bg-dark mobile-nav-toggle" data-bs-toggle="collapse" data-bs-target="#navmenu"  aria-controls="navmenu" aria-expanded="false"  aria-label="Toggle navigation">
           </button>                      
             <div id="navmenu" class="collapse navbar-collapse navmenu ms-5">
               <ul class="navbar-nav me-auto mb-2 mb-sm-0">                
@@ -86,10 +86,10 @@
           </div>        
           <div class="container">
             <div class="social-links d-flex justify-content-center text-white">
-              <a href="https://www.linkedin.com/in/clara-lopez-uribe-web-developer/"><i class="bi bi-linkedin"></i></a>
-              <a href="https://github.com/ClaraLopezUribe"><i class="bi bi-github"></i></a>            
-              <a href="https://x.com/ClaraLopezUribe"><i class="bi bi-twitter-x"></i></a>
-              <a href="#contact"><i class="bi bi-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/clara-lopez-uribe-web-developer/" aria-label="Open LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/ClaraLopezUribe" aria-label="Open GitHub profile"><i class="bi bi-github"></i></a>            
+              <a href="https://x.com/ClaraLopezUribe" aria-label="Open X profile"><i class="bi bi-twitter-x"></i></a>
+              <a href="#contact" aria-label="Go to Contact form to send message"><i class="bi bi-envelope"></i></a>
             </div>
           </div>       
         </div>
@@ -311,13 +311,13 @@
         <!-- FEATURED PROJECT SUB-SECTION -->
         
           <h3 class="section-title text-light">Featured: Full-Stack Blog App</h3>
-          <div class="container rounded-4 py-4 px-4 bg-light col col-md-6">
+          <div class="container featured rounded-4 py-4 px-4 col col-md-6">
             <img src="assets/img/projects/BlogScreenshot.jpg" class="img-fluid rounded-4 shadow" alt="Blog Project landing page featuring a title and subtile in bold white text and search bar, over a darkened filtered background image of an open blank notebook with a pencil in the center and surrounded by a pair of glasses, smartphone, and an open laptop.">
             <!-- <a href="blog-details.html" title="More Details" class="details-link">
             <img src="/assets/img/Proj_img/BlogScreenshot 2025-09-17 152553.jpg" class="img-fluid rounded-4 shadow" alt="Blog Project landing page featuring a title and subtile in bold white text and search bar, over a darkened filtered background image of an open blank notebook with a pencil in the center and surrounded by a pair of glasses, smartphone, and an open laptop."></a> -->
             <div class="portfolio-info mt-4 text-dark">            
               <p class="lead">This project is home to a collection of "Clara-FYIng" thoughts about code, careers and creativity. Built with ASP.NET MVC, C#, and PostgreSQL, and deployed on Railway.</p>
-              <p class="lead">Visit <a href="https://codelifeuploaded.com/" target="_blank" title="Go to project website" aria-label="Opens in new tab" class="details-link">codelifeuploaded.com <i class="fas fa-external-link-alt" aria-hidden=”true”></i></a> to explore its features and read the latest blog posts.</p>
+              <p class="lead">Visit <a href="https://codelifeuploaded.com/" aria-label="Go to project website" class="details-link link-bg-light">codelifeuploaded.com <i class="fas fa-external-link-alt" aria-hidden=”true”></i></a> to explore its features and read the latest blog posts.</p>
               <!-- <p class="lead"> Learn more about its key features and technologies.</p> -->
             </div>
           </div><!-- END FEATURED PROJECT SUB-SECTION -->
@@ -348,7 +348,7 @@
                   <h4>Blog Project</h4>
                   <p>A collection of "Clara-FYIng" thoughts about code, careers, and creativity.This full stack application was built with ASP.NET MVC, C#, and PostgreSQL.</p>
                   <!-- <a href="blog-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>                 -->
-                  <a href="https://codelifeuploaded.com/" target="_blank" title="Go to project website" aria-label="Opens in new tab" class="details-link"><i class="fas fa-external-link-alt" aria-hidden=”true”></i></a>
+                  <a href="https://codelifeuploaded.com/" title="Go to project website" aria-label="Go to project website" class="details-link"><i class="fas fa-external-link-alt" aria-hidden=”true”></i></a>
                 </div>
               </div><!-- END PORTFOLIO ITEM -->            
 
@@ -610,7 +610,7 @@
         <div class="container">
 
           <div class="container mb-3 text-end">
-            <a href="#contact">Skip to next section</a>
+            <a href="#contact" class="link-bg-light">Skip to next section</a>
           </div>
 
           <div class="row gy-4">
@@ -634,7 +634,7 @@
                       I make it a point to add significant value in every role I occupy. I continuously assess current needs and opportunities for improvements. After identifing desired outcomes, I research, learn, and apply best practices, methodologies, and tools to deliver solutions that exeed expectations.
                     </p>
                   </div>
-                  <button class="faq-toggle bi bi-chevron-right"></button>
+                  <button class="faq-toggle bi bi-chevron-right" aria-label="faq-toggle"></button>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
@@ -642,7 +642,7 @@
                   <div class="faq-content">
                     <p>Having a positive and forward thinking mindset has been crucial in navigating difficult circumstances in professional and personal settings. When confronted with a challenge, I first decide that I <em>will </em>be successful in resolving it. This enables me to see and implement solutions I may otherwise miss.</p>
                   </div>
-                  <button class="faq-toggle bi bi-chevron-right"></button>
+                  <button class="faq-toggle bi bi-chevron-right" aria-label="faq-toggle"></button>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
@@ -650,7 +650,7 @@
                   <div class="faq-content">
                     <p>After about a decade working as a music teacher in private and public schools, I have executed all of my work from home. Having a clear sense of purpose has been what keeps me focused on prioritizing and accomplishing high value tasks. I've also developed systems that keep me organized and productive, even on low-motivation days.</p>
                   </div>
-                  <button class="faq-toggle bi bi-chevron-right"></button>
+                  <button class="faq-toggle bi bi-chevron-right" aria-label="faq-toggle"></button>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
@@ -660,7 +660,7 @@
                       Learning is most effective in community, so I follow and engage with industry leaders and colleagues on social media and online forums. I also take online courses, subscribe to (and read) newsletters, and attend conferences to deepen my knowledge and skills.
                     </p>
                   </div>
-                  <button class="faq-toggle bi bi-chevron-right"></button>
+                  <button class="faq-toggle bi bi-chevron-right" aria-label="faq-toggle"></button>
                 </div><!-- End Faq item-->
 
                 <div class="faq-item">
@@ -670,7 +670,7 @@
                       Giving and receiving constructive feedback can often be challenging and stressful. However, the most impactful strategy I have applied to make the experience mutually beneficial, is to hold a generous view of the person in front of me. Remembering that the intention of constructive feedback is to help each other grow, improve, and be successful shifts the dynamic from one of criticism to one of collaboration. I am always grateful for that!
                     </p>
                   </div>
-                  <button class="faq-toggle bi bi-chevron-right"></button>
+                  <button class="faq-toggle bi bi-chevron-right" aria-label="faq-toggle"></button>
                 </div><!-- End Faq item-->
 
               </div>
@@ -760,10 +760,10 @@
           
           <div class="container">
             <div class="social-links d-flex justify-content-center">
-              <a href="https://www.linkedin.com/in/clara-lopez-uribe-web-developer/"><i class="bi bi-linkedin"></i></a>
-              <a href="https://github.com/ClaraLopezUribe"><i class="bi bi-github"></i></a>            
-              <a href="https://x.com/ClaraLopezUribe"><i class="bi bi-twitter-x"></i></a>
-              <a href="#contact"><i class="bi bi-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/clara-lopez-uribe-web-developer/" aria-label="Open LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/ClaraLopezUribe" aria-label="Open GitHub profile"><i class="bi bi-github"></i></a>            
+              <a href="https://x.com/ClaraLopezUribe" aria-label="Open X profile"><i class="bi bi-twitter-x"></i></a>
+              <a href="#contact" aria-label="Go to Contact form to send message"><i class="bi bi-envelope"></i></a>
             </div>      
           </div>
         <div class="credits">
@@ -781,7 +781,7 @@
     </footer>
 
     <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Preloader -->
     <div id="preloader"></div>
